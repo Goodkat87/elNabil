@@ -3,7 +3,7 @@ import { useState } from 'react'
 function App() {
 
   return (
-    <div>
+    <div className='w-full h-screen flex flex-col items-center'>
     </div>
   )
 }
