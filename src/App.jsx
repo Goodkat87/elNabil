@@ -11,7 +11,11 @@ import SideBar from './components/SideBar';
 
 function App() {
   const [side, setSide] = useState(false)
+  const [bag, setBag] = useState([])
 
+  let add = () =>{
+    
+  }
   
   return (
     <div className='w-full flex flex-col items-center '>
@@ -19,9 +23,9 @@ function App() {
       <Navbar bag={Bag} side={side} setSide={setSide} />
       <Banner imgbanner={Imgbanner} />
       <div className='w-11/12 h-max flex flex-wrap justify-center gap-3 pb-32 pt-32'>
-        {data.map(function(item) {
+        {data.map(function(item, key) {
           return (
-            <Card item={item}></Card>
+            <Card item={item} key={key}></Card>
           )
         })}
       </div>
