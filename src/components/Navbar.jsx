@@ -5,7 +5,7 @@ import React from 'react'
 export default function Navbar(props) {
     return (
         <div className='w-full'>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 sticky">
                 <div className="flex-1">
                     <a className="btn btn-ghost text-xl font-ahlan">El Nabil</a>
                 </div>
