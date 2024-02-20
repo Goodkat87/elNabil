@@ -7,13 +7,16 @@ import Footer from './components/Footer'
 import Copyright from './components/Copyright'
 import Banner from "./components/Banner";
 import Bag from "./assets/img/bag.png";
+import SideBar from './components/SideBar';
 
 function App() {
-  
+  const [side, setSide] = useState(false)
+
   
   return (
-    <div className='w-full flex flex-col items-center'>
-      <Navbar bag={Bag} />
+    <div className='w-full flex flex-col items-center '>
+      <SideBar side={side} ></SideBar>
+      <Navbar bag={Bag} side={side} setSide={setSide} />
       <Banner imgbanner={Imgbanner} />
       <div className='w-11/12 h-max flex flex-wrap justify-center gap-3 pb-32 pt-32'>
         {data.map(function(item) {

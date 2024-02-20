@@ -7,11 +7,12 @@ export default function Navbar(props) {
         <div className='w-full'>
             <div className="navbar bg-base-100 fixed z-50">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl font-ahlan">El Nabil</a>
+                    <div className="btn btn-ghost text-xl font-ahlan">El Nabil</div>
                 </div>
                 <div className="flex-none">
-                    <button className="btn btn-square btn-ghost">
-                        <img src={props.bag} alt="bag" />
+                    <button className="btn btn-square btn-ghost relative" onClick={()=>{props.side ? props.setSide(false) : props.setSide(true)}}>
+                        <img src={props.bag} alt="bag"/>
+                        <span className="indicator-item badge top-0 -right-2 absolute">0</span>
                     </button>
                 </div>
             </div>
