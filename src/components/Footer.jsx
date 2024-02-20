@@ -24,7 +24,7 @@ export default function Footer() {
                 <a className="link link-hover">Cookie policy</a>
             </nav>
             <aside>
-                <p className='text-7xl'>EL NABIL</p>
+                <p className='text-[84px] font-ahlan'>EL NABIL</p>
             </aside>
         </footer>
   )

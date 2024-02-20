@@ -1,9 +1,9 @@
 [
     {
-        "name" : "MUSC ABU DHABI",
+        "name" : "MUSC ADDICT",
         "price" : "€26.99",
         "stock" : 3,
-        "image" : "./src/assets/img/abudhabi.png"
+        "image" : "./src/assets/img/addict.webp"
     },
     {
         "name" : "MUSC HALIMA",

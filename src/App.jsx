@@ -9,13 +9,13 @@ import Banner from "./components/Banner";
 import Bag from "./assets/img/bag.png";
 
 function App() {
-
+  
+  
   return (
-    <div className='w-full h-screen flex flex-col items-center'>
+    <div className='w-full flex flex-col items-center'>
       <Navbar bag={Bag} />
       <Banner imgbanner={Imgbanner} />
-
-      <div className='w-11/12 h-max flex flex-wrap justify-center gap-3 pb-32'>
+      <div className='w-11/12 h-max flex flex-wrap justify-center gap-3 pb-32 pt-32'>
         {data.map(function(item) {
           return (
             <Card item={item}></Card>
