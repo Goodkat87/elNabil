@@ -3,7 +3,7 @@ import React, {useEffect} from 'react'
 export default function SideBar(props) {
   return (
     <div className={`w-full h-screen -right-full fixed flex justify-end items-end z-50 backdrop-blur-sm ${props.side && '-translate-x-full'} duration-[1.5s]`}>
-      <div className="w-[600px] h-[95%] bg-neutral relative bg-no-repeat bg-contain bg-center flex flex-col pt-10 items-center max-sm:w-full max-sm:h-screen">
+      <div className="w-[600px] h-[95%] bg-neutral relative bg-no-repeat bg-contain bg-center flex flex-col pt-10 max-sm:pt-20 items-center max-sm:w-full max-sm:h-screen">
         <p className='z-50 font-ahlan text-8xl'>EL NABIL</p>
         <hr className='border w-full border-current' />
         <p className='z-50 pb-5 pt-5'>SOLDE RESTANT: {props.solde}€</p>
