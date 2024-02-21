@@ -1,75 +1,87 @@
 [
     {
         "name" : "MUSC ADDICT",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 3,
+        "quantity": 0,
         "image" : "./src/assets/img/addict.webp"
     },
     {
         "name" : "MUSC HALIMA",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 4,
+        "quantity": 0,
         "image" : "./src/assets/img/halima.webp"
     },
     {
         "name" : "MUSC IMRAN",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 5,
+        "quantity": 0,
         "image" : "./src/assets/img/imran.png"
     },
     {
         "name" : "MUSC ANASS",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 5,
+        "quantity": 0,
         "image" : "./src/assets/img/anas.png"
     },
     {
         "name" : "MUSC BELLA",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 8,
+        "quantity": 0,
         "image" : "./src/assets/img/bella.jpg"
     },
     {
         "name" : "MUSC LOVE",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 7,
+        "quantity": 0,
         "image" : "./src/assets/img/love.png"
     },
     {
         "name" : "MUSC MAKKAH",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 5,
+        "quantity": 0,
         "image" : "./src/assets/img/makkah.webp"
     },
     {
         "name" : "MUSC ROYAL GOLD",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 8,
+        "quantity": 0,
         "image" : "./src/assets/img/royalGold.webp"
     },
     {
         "name" : "MUSC SAUVAGE",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 3,
+        "quantity": 0,
         "image" : "./src/assets/img/sauvage.webp"
     },
     {
         "name" : "MUSC VELVET",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 5,
+        "quantity": 0,
         "image" : "./src/assets/img/velvet.png"
     },
     {
         "name" : "MUSC BLANC",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 9,
+        "quantity": 0,
         "image" : "./src/assets/img/blanc.png"
     },
 
     {
         "name" : "MUSC NIGHT",
-        "price" : "€26.99",
+        "price" : 28,
         "stock" : 4,
+        "quantity": 0,
         "image" : "./src/assets/img/night.webp"
     }
 ]

@@ -11,21 +11,37 @@ import SideBar from './components/SideBar';
 
 function App() {
   const [side, setSide] = useState(false)
-  const [bag, setBag] = useState([])
+  const [basket, setBasket] = useState([]) 
+  const [solde, setSolde] = useState(300)
 
-  let add = () =>{
-    
+  const [added,setAdded] = useState(0)
+  const [cart,setCart] = useState([])
+
+  let add = (element)  => {
+    if (element.stock > 0 && solde > element.price) {
+      setBasket([...basket,element])
+      setCart([...new Set(basket)])
+      setAdded(added+1)
+      element.stock--
+      element.quantity++
+      setSolde(solde-element.price)
+    }
   }
+
+
+
+
   
+
   return (
     <div className='w-full flex flex-col items-center '>
-      <SideBar side={side} ></SideBar>
-      <Navbar bag={Bag} side={side} setSide={setSide} />
+      <SideBar side={side} solde={solde} basket={basket} cart={cart} ></SideBar>
+      <Navbar bag={Bag} side={side} setSide={setSide} basket={basket} added={added} />
       <Banner imgbanner={Imgbanner} />
       <div className='w-11/12 h-max flex flex-wrap justify-center gap-3 pb-32 pt-32'>
         {data.map(function(item, key) {
           return (
-            <Card item={item} key={key}></Card>
+            <Card item={item} key={key} add={add} added={added}  ></Card>
           )
         })}
       </div>
