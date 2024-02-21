@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import data from "./assets/json/data.json"
 import Navbar from "./components/Navbar";
 import Imgbanner from "./assets/img/banner.jpg";
@@ -20,7 +20,11 @@ function App() {
   let add = (element)  => {
     if (element.stock > 0 && solde > element.price) {
       setBasket([...basket,element])
-      setCart([...new Set(basket)])
+      if (basket.length>0) {
+        setCart([...new Set(basket)])
+      }else{
+        setCart([...cart,element])
+      }
       setAdded(added+1)
       element.stock--
       element.quantity++
@@ -28,14 +32,22 @@ function App() {
     }
   }
 
-
+  
+  let discard = (article) => {
+    if(article.quantity>0){
+      article.quantity --
+      article.stock ++
+      setSolde(solde+article.price)
+      setAdded(added-1)
+    }
+  }
 
 
   
 
   return (
     <div className='w-full flex flex-col items-center '>
-      <SideBar side={side} solde={solde} basket={basket} cart={cart} ></SideBar>
+      <SideBar side={side} solde={solde} basket={basket} cart={cart} add={add} discard={discard} ></SideBar>
       <Navbar bag={Bag} side={side} setSide={setSide} basket={basket} added={added} />
       <Banner imgbanner={Imgbanner} />
       <div className='w-11/12 h-max flex flex-wrap justify-center gap-3 pb-32 pt-32'>
