@@ -4,77 +4,77 @@
         "price" : 28,
         "stock" : 3,
         "quantity": 0,
-        "image" : "./src/assets/img/addict.webp"
+        "image" : "addict.webp"
     },
     {
         "name" : "MUSC HALIMA",
         "price" : 28,
         "stock" : 4,
         "quantity": 0,
-        "image" : "./src/assets/img/halima.webp"
+        "image" : "halima.webp"
     },
     {
         "name" : "MUSC IMRAN",
         "price" : 28,
         "stock" : 5,
         "quantity": 0,
-        "image" : "./src/assets/img/imran.png"
+        "image" : "imran.png"
     },
     {
         "name" : "MUSC ANASS",
         "price" : 28,
         "stock" : 5,
         "quantity": 0,
-        "image" : "./src/assets/img/anas.png"
+        "image" : "anas.png"
     },
     {
         "name" : "MUSC BELLA",
         "price" : 28,
         "stock" : 8,
         "quantity": 0,
-        "image" : "./src/assets/img/bella.jpg"
+        "image" : "bella.jpg"
     },
     {
         "name" : "MUSC LOVE",
         "price" : 28,
         "stock" : 7,
         "quantity": 0,
-        "image" : "./src/assets/img/love.png"
+        "image" : "love.png"
     },
     {
         "name" : "MUSC MAKKAH",
         "price" : 28,
         "stock" : 5,
         "quantity": 0,
-        "image" : "./src/assets/img/makkah.webp"
+        "image" : "makkah.webp"
     },
     {
         "name" : "MUSC ROYAL GOLD",
         "price" : 28,
         "stock" : 8,
         "quantity": 0,
-        "image" : "./src/assets/img/royalGold.webp"
+        "image" : "royalGold.webp"
     },
     {
         "name" : "MUSC SAUVAGE",
         "price" : 28,
         "stock" : 3,
         "quantity": 0,
-        "image" : "./src/assets/img/sauvage.webp"
+        "image" : "sauvage.webp"
     },
     {
         "name" : "MUSC VELVET",
         "price" : 28,
         "stock" : 5,
         "quantity": 0,
-        "image" : "./src/assets/img/velvet.png"
+        "image" : "velvet.png"
     },
     {
         "name" : "MUSC BLANC",
         "price" : 28,
         "stock" : 9,
         "quantity": 0,
-        "image" : "./src/assets/img/blanc.png"
+        "image" : "blanc.png"
     },
 
     {
@@ -82,6 +82,6 @@
         "price" : 28,
         "stock" : 4,
         "quantity": 0,
-        "image" : "./src/assets/img/night.webp"
+        "image" : "night.webp"
     }
 ]

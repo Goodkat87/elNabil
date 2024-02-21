@@ -2,7 +2,7 @@
   "name": "elnabil",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Goodkat87.github.io/elNabil",
+  "homepage": "https://goodkat87.github.io/elNabil/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
