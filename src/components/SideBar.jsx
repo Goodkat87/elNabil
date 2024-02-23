@@ -16,7 +16,6 @@ export default function SideBar(props) {
                 <button className=" rounded-full btn-outline btn-circle  flex justify-center items-center text-2xl" onClick={()=>{props.add(item)}}>+</button>
                 <button className=" rounded-full btn-outline btn-circle  flex justify-center items-center text-2xl" onClick={()=>{props.discard(item)}}>-</button>
                 </li>
-
               
             )
           })}
